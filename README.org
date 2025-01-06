@@ -1,0 +1,22 @@
+#+options: toc:2
+#+title: Advent of Code in Zig - 2024
+
+* Overview
+Solving first 10 days of [[https://adventofcode.com/2024][Advent of Code 2024]] to learn more Zig ⚡.
+
+- The puzzles descriptions and inputs are in ~puzzles/<INDEX>/~
+- The code solving each puzzle is in ~solutions/puzzle_<INDEX>.zig~
+- To print all solutions to ~STDERR~ run ~sh shell_scripts/run.sh~
+
+* Setup
+In this project ~zig~ version ~0.13.0~ was used, from
+https://ziglang.org/download/.
+
+The ~zig~ and ~zls~ executables were installed by running ~sh
+shell_scripts/setup.sh~ in ~${HOME}/zig-linux-x86_64-0.13.0~.
+
+* Documentation and Books about Ziglang
+- The language reference is in ~${HOME}/zig-linux-x86_64-0.13.0/doc~
+- The standard library documentation can be served locally with ~zig std~
+- [[https://zig.guide/][The Zig guide]]
+- [[https://pedropark99.github.io/zig-book/][The Zig book]]  
